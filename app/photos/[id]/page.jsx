@@ -15,9 +15,10 @@ export default async function PhotoDetails({ params }){
                     <Image
                         src={img?.url}
                         alt={img?.title}
-                        priority={true}
                         width={200}
                         height={200}
+                        placeholder='blur'
+                        blurDataURL={img?.thumbnailUrl}
                     ></Image>
 
                     <div className={Styles.info_box}>

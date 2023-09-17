@@ -15,7 +15,9 @@ export default async function PhotoGallery() {
                         alt='Profile'
                         fill={true}
                         priority={true}
-                        sizes='100vw'
+                        placeholder='blur'
+                        blurDataURL={img?.thumbnailUrl}
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     ></Image>
 
                     <div className={Styles.image_overlay}>
