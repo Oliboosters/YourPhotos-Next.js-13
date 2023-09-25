@@ -8,16 +8,16 @@
     font-size: 1.3rem;
 }
 
-.logo_your {
+.logo {
+    text-decoration: none;
+}
+
+.logo div {
     color: white;
 }
 
-.logo_photos {
+.logo span {
     color: rgb(0, 81, 0);
-}
-
-.link {
-    text-decoration: none;
 }
 
 /* Follow Button */

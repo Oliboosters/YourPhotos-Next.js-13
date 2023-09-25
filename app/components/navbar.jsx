@@ -6,8 +6,8 @@ export default function Navbar() {
         <>
             <nav className={Styles.nav_wrapper}>
                 <div>
-                    <Link href={"/"} className={Styles.link}>
-                        <div className={Styles.logo_your}>Your<span className={Styles.logo_photos}>Photos</span></div>
+                    <Link href={"/"} className={Styles.logo}>
+                        <div>Your<span>Photos</span></div>
                     </Link>
                 </div>
                 <div>
